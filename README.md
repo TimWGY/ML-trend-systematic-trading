@@ -4,7 +4,7 @@ A <b>machine learning based systematic trading system</b> that combines the popu
 The final model of ours proves to be moderately successful with <b>S&P 500 futures</b> after backtesting with the data in <b>past 20 years</b>. It strikes a balance between profit-taking during uptrends and loss-avoidance during crises. For more information, the PDF file in this repo is the <b>final report</b>, which discusses the project ideation, methodology, and results.
 <br><br>
 The code files include two parts:
-<br><br>
+<br>
 1. 'Signal Generator' takes in raw data (S&P_Futures_data.csv in this case) and create an intermediate data file with various signals.
 <br><br>
 2. 'Trading Model' takes in the output file of Signal Generator and makes actual trading decisions and generates outputs. Performance analysis is in this file as well.
